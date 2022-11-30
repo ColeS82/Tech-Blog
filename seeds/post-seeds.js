@@ -2,21 +2,21 @@ const { Post } = require("../models");
 
 const postData = [
   {
-    title: "Scorn Is Really Good",
-    genre: "horror , puzzle",
-    content: "Scorn is a game that just released and its very good",
+    title: "Java Script",
+    genre: "",
+    content: "What is the best way to validate a login?",
     user_id: 1,
   },
   {
-    title: "Call of Duty Just Came Out",
-    genre: "action",
-    content: "The new installation is out of this world good.",
+    title: "hooks",
+    genre: "",
+    content: "Can somewone explain hooks to me?",
     user_id: 1,
   },
   {
-    title: "Silent Hill",
-    genre: "horror",
-    content: "Silent Hill remakes are coming out and i am super hyped",
+    title: "NPM",
+    genre: "",
+    content: "NPM has thousands of modules to help you make your website into whatever you want it to be.",
     user_id: 2,
   },
 ];
