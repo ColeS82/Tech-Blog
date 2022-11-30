@@ -57,3 +57,11 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 The following animation demonstrates the application functionality:
 
 ![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
+
+
+## Links
+App url:
+https://git.heroku.com/stark-scrubland-44093.git
+
+Git Hub repo:
+https://github.com/ColeS82/Tech-Blog
