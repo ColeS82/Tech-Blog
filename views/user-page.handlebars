@@ -1,0 +1,15 @@
+<div>
+    {{#if logged_in}} 
+    create the rest of look for when the user is viewing their account info.
+    <h2>{{user.username}}</h2>
+    <ul>
+        {{#each user.posts as |post|}}
+        {{post.content}}
+        {{/each}}
+    </ul>
+</div>
+{{/if}}
+
+<script src="./js/newPost.js"></script>
+<script src="./js/editPost.js"></script>
+<script src="./js/comment.js"></script>

@@ -1,0 +1,33 @@
+<main>
+
+
+
+
+
+
+  
+
+    
+    <div class="mb-4">
+        {{#if logged_in}}
+        <a href="/create-post" id="create-post" class="underline text-xl hover:text-white ml-64 font-bold">Create Post</a>
+        <script src="/js/newPost.js"></script>
+        {{else}}
+        <a href="/login" class="underline text-xl hover:text-white ml-64 font-bold">Create Post</a>
+        {{/if}}
+    </div>
+    
+    <div class="post-area">
+        <div class="my-2">
+            <div>
+                {{#each users as |post|}}
+                {{> post-details}}
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</main>
+<script src="/js/genres.js"></script>
+</body>
+
+

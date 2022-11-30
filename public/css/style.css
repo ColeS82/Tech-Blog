@@ -1,0 +1,158 @@
+body{
+  background-color: cadetblue;
+}
+
+main {
+  color: rgb(241, 65, 94);
+  font-family: "Montserrat Alternates", sans-serif;
+  background-image: url("./images/tech-against-trafficking-hero.jpg");
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: center;
+}
+
+img {
+  display: flex;
+}
+
+#header {
+  max-width: 45%;
+  padding: 20px;
+  border-radius: 30px;
+  border-color: aqua;
+  background-color: rgba(0, 0, 0, 0.248);
+  text-shadow: 5px 5px 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+#genre-bar {
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+#search-input {
+  color: aqua;
+  background-color: rgba(0, 0, 0, 0.425);
+  border: solid white 0.1px;
+  border-radius: 20px;
+  min-height: 50px;
+  padding: 0 15px;
+  width: 350px;
+}
+
+.post-area{
+  background-color: rgba(104, 50, 149, 0.403);
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  margin: auto;
+  padding: 15px;
+  border: solid blue 2px;
+  border-radius: 20px;
+}
+
+.post{
+  color: aqua;
+  background-color: rgba(0, 0, 0, 0.600);
+  flex-direction: column;
+  align-items: center;
+  max-width: 98%;
+  padding: 15px;
+  border: solid aqua 1px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 4px;
+}
+
+.buttons {
+  border: solid white 1px;
+  border-radius: 10px;
+  padding: 0 8px;
+}
+.post-buttons{
+  border-radius: 10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-form {
+  font-size: 30px;
+  color: rgb(241, 65, 94);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid;
+  border-color: aqua;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.signup-form {
+  font-size: 30px;
+  color: rgb(241, 65, 94);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid;
+  border-color: aqua;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+.form-input {
+  color: aqua;
+  display: flex;
+  background-color: transparent;
+  border: solid white 0.1px;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+.login-buttons {
+  border: solid aqua 1px;
+  border-radius: 10px;
+  padding: 0 8px;
+}
+#login{
+  margin: auto;
+}
+
+.button:hover {
+  background-color: rgb(1, 1, 10);
+  color: white;
+  transition: 1s;
+}
+footer{
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 1030px) {
+
+  header {
+    margin: 0 25px 30px 25px;
+  }
+
+  #forms {
+    max-width: 300px;
+    margin: auto;
+  }
+  #login-form {
+    max-width: 300px;
+  }
+
+  #signup-form {
+    max-width: 300px;
+  }
+
+  .form-input {
+    max-width: 250px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,10 +1,9 @@
-{{#each users as |user| }}
-<div class="row align-center mb-5">
-  <div class="col-md-6">
-    <h2>{{{get_emoji}}} {{user.name}}</h2>
-  </div>
-  <div class="col-md-6">
-    <h3><a href="mailto:{{user.email}}">{{user.email}}</a></h3>
-  </div>
-</div>
-{{/each}}
+{{>page-setup}}
+
+{{#if logged_in}}
+<script src="./js/newPost.js"></script>
+<script src="./js/editPost.js"></script>
+<script src="./js/comment.js"></script>
+{{else}}
+<h2>Please log in first!</h2>
+{{/if }}
